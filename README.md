@@ -1,6 +1,10 @@
-# MatAngularTemplate
+# Mat Angular Template
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+
+## Personal note
+
+This project can be used as a starter template for designing a simple, responsive page. It uses Angular Material along with Font Awesome Icons. Starter components are based on [angular-ngrx-material-starter](https://github.com/tomastrajan/angular-ngrx-material-starter), and folder structure is following the guidelines from [Angular Folder Structure](https://github.com/mathisGarberg/angular-folder-structure)
 
 ## Development server
 

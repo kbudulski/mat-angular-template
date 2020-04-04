@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import './app/layout/content-layout/content-layout.component.scss-theme';
+@import "./styles/themes/custom-theme";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@include mat-core();
+
+@mixin custom-components-theme($theme) {
+  @include app-component-theme($theme);
+}
+
+.default-theme {
+  @include angular-material-theme($my-app-theme);
+  @include custom-components-theme($my-app-theme);
+}
+
+* {
+  &:active,
+  :focus {
+    outline: none !important;
+  }
+}
